@@ -34,3 +34,7 @@ p {
 #test {
   color: purple;
 }
+
+.text {
+  line-height: 1.5;
+}
