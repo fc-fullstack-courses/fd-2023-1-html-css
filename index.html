@@ -9,39 +9,59 @@
         тут уже CSS
       */
 
-      /* селектор по тегу */
+      /* селектор по тегу - 0001 */
       p {
         /* color: darkorchid; */
         /* color: transparent; */
         /* color: rgb(0,128,0); */
         /* color: rgba(255, 60, 1, 0.805); */
-        color: #ff3c00;  
+        color: #ff3c00;
         /* цвет фона */
-        background-color: rgb(160,160,160);
-      }
-      
-    </style>
+        /* background-color: rgb(160, 160, 160); */
 
+        /* шрифты */
+        /* размеры шрифта */
+        font-size: 30px; /*  размер в пикселях */
+      }
+
+      /* селектор класса - 0010 */
+      .blue-text {
+        color: blue;
+      }
+
+      .green-text {
+        color: green;
+      }
+
+      .big-text {
+        font-size: 60px;
+      }
+
+      /* селектор по id - 0100 */
+      #test {
+        color: purple;
+      }
+    </style>
   </head>
   <body>
-    <h1 title="Пока">Главная страница</h1>
+    <h1 title="Пока" class="big-text">Главная страница</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorum
       commodi vel delectus molestiae id itaque tenetur voluptate. Pariatur
       maiores possimus id, error vel dolorum aperiam nam velit iure eaque!
     </p>
-    <p>
+    <p class="green-text big-text" >
       Fugiat vitae natus laudantium in doloremque numquam, animi ab a alias,
       soluta porro corrupti enim qui aperiam sunt. Amet inventore totam illum
       voluptates harum facilis aut. Dolore exercitationem ad alias!
     </p>
-    <p>
+    <p class="green-text blue-text">
       Accusamus asperiores provident dignissimos non vitae recusandae saepe ab
       officiis fugit quos praesentium ad, doloremque, itaque fugiat delectus
       molestiae nam voluptate numquam. Illum in, iusto totam nulla doloremque at
       ipsum?
     </p>
-    <p>
+    <p id="test">
       Assumenda consequuntur id vero minus harum corporis, laudantium rerum
       obcaecati at saepe eos ex voluptatum possimus dolor perferendis
       repellendus repellat enim? Consectetur itaque libero dolor molestiae
