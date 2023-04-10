@@ -37,4 +37,12 @@ p {
 
 .text {
   line-height: 1.5;
+  text-align: justify;
+}
+
+.heading {
+  /* горизонтальное размещение текста 
+    left | right | center | justify
+  */
+  text-align: center;
 }
