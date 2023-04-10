@@ -36,8 +36,21 @@ p {
 }
 
 .text {
-  line-height: 1.5;
+  /* line-height: 1.5; */
   text-align: justify;
+  font-size: 60px;
+  /* 
+  жирность 
+    normal | bold
+  */
+  font-weight: bold;
+  color: black;
+  text-align:  center;
+  /* 
+  курсивность текста 
+    normal | italic | oblique
+  */
+  font-style: italic;
 }
 
 .heading {
