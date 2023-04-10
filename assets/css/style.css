@@ -1,0 +1,36 @@
+/*
+        тут уже CSS
+      */
+
+/* селектор по тегу - 0001 */
+p {
+  /* color: darkorchid; */
+  /* color: transparent; */
+  /* color: rgb(0,128,0); */
+  /* color: rgba(255, 60, 1, 0.805); */
+  color: #ff3c00;
+  /* цвет фона */
+  /* background-color: rgb(160, 160, 160); */
+
+  /* шрифты */
+  /* размеры шрифта */
+  font-size: 30px; /*  размер в пикселях */
+}
+
+/* селектор класса - 0010 */
+.blue-text {
+  color: blue;
+}
+
+.green-text {
+  color: green;
+}
+
+.big-text {
+  font-size: 60px;
+}
+
+/* селектор по id - 0100 */
+#test {
+  color: purple;
+}
