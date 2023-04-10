@@ -46,3 +46,11 @@ p {
   */
   text-align: center;
 }
+
+.btn {
+  /* преобразование текста 
+    none | capitalize | uppercase | lowercase 
+  */
+  text-transform: uppercase;
+  font-size: 40px;
+}
