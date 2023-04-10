@@ -54,3 +54,29 @@ p {
   text-transform: uppercase;
   font-size: 40px;
 }
+
+.link {
+  font-size: 40px;
+  /* подчеркивание */
+  /* text-decoration: ; */
+  /* вид линий 
+    none;
+    underline;
+    overline;
+    line-through;
+  */
+  /* text-decoration-line: line-through overline underline; */
+  /* цвет линий */
+  /* text-decoration-color: red; */
+  /* стль линий 
+    solid;
+    double;
+    dotted;
+    dashed;
+    wavy;
+  */
+  /* text-decoration-style: wavy; */
+  /* text-decoration-thickness: 10px; */
+  /* text-decoration: line-through overline underline red wavy; */
+  text-decoration: none;
+}
