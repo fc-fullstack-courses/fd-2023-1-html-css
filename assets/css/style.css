@@ -50,4 +50,9 @@
   border-top-style: dashed;
   border-top-color: orange; */
   border-top: 10px dashed orange;
+
+  /* внешние поля 
+    скоращения как у паддингов
+  */
+  margin: 20px;
 }
