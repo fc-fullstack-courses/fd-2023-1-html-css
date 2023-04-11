@@ -1,95 +1,30 @@
-/*
-        тут уже CSS
-      */
-
-/* селектор по тегу - 0001 */
-p {
-  /* color: darkorchid; */
-  /* color: transparent; */
-  /* color: rgb(0,128,0); */
-  /* color: rgba(255, 60, 1, 0.805); */
-  color: #ff3c00;
-  /* цвет фона */
-  /* background-color: rgb(160, 160, 160); */
-
-  /* шрифты */
-  /* размеры шрифта */
-  font-size: 30px; /*  размер в пикселях */
-}
-
-/* селектор класса - 0010 */
-.blue-text {
-  color: blue;
-}
-
-.green-text {
-  color: green;
-}
-
-.big-text {
-  font-size: 60px;
-}
-
-/* селектор по id - 0100 */
-#test {
-  color: purple;
-}
-
-.text {
-  /* line-height: 1.5; */
-  text-align: justify;
-  font-size: 60px;
-  /* 
-  жирность 
-    normal | bold
-  */
-  font-weight: bold;
-  color: black;
-  text-align:  center;
-  /* 
-  курсивность текста 
-    normal | italic | oblique
-  */
-  font-style: italic;
-}
-
-.heading {
-  /* горизонтальное размещение текста 
-    left | right | center | justify
-  */
+.article-wrapper {
   text-align: center;
+  border: 10px solid purple;
 }
 
-.btn {
-  /* преобразование текста 
-    none | capitalize | uppercase | lowercase 
-  */
-  text-transform: uppercase;
-  font-size: 40px;
+.article {
+  color: red;
+  /* border:inherit; */
+}
+
+.article-header {
+  border: inherit; /* принудительное наследование свойства */
+}
+
+.article-text {
+  /* color: green; */
+  color: initial; /* принудительно отключаем наследование */
 }
 
 .link {
-  font-size: 40px;
-  /* подчеркивание */
-  /* text-decoration: ; */
-  /* вид линий 
-    none;
-    underline;
-    overline;
-    line-through;
-  */
-  /* text-decoration-line: line-through overline underline; */
-  /* цвет линий */
-  /* text-decoration-color: red; */
-  /* стль линий 
-    solid;
-    double;
-    dotted;
-    dashed;
-    wavy;
-  */
-  /* text-decoration-style: wavy; */
-  /* text-decoration-thickness: 10px; */
-  /* text-decoration: line-through overline underline red wavy; */
+  font-size: 24px;
+  /*  */
   text-decoration: none;
+  color: inherit;
 }
+
+/* a {
+  text-decoration: none;
+  color: inherit;
+} */
