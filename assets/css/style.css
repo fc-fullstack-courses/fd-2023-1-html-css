@@ -6,7 +6,6 @@
 .img {
   width: 400px;
   /* height: 400px; */
-  border: 5px solid red;
   /* размеры для всех сторон */
   padding: 20px;
   /* 
@@ -33,4 +32,22 @@
   */
   /* Сверху | По горизонтали | Снизу */
   padding: 30px 50px 0;
+  /* 
+  границы 
+    border-width
+    border-style
+    border-color
+  */
+
+  /* для 4 сторон */
+  border: 5px solid red;
+  /* border-width: 5px;
+  border-style: solid;
+  border-color:red; */
+
+  /* для конкретных сторон */
+  /* border-top-width: 10px;
+  border-top-style: dashed;
+  border-top-color: orange; */
+  border-top: 10px dashed orange;
 }
