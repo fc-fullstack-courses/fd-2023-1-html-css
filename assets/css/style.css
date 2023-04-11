@@ -56,3 +56,16 @@
   */
   margin: 20px;
 }
+
+.elem {
+  /* display: inline; */
+  /* display: block; */
+  display: inline-block;
+  background-color: dodgerblue;
+  font-size: 36px;
+  padding: 10px 100px;
+  border: 10px solid red;
+  margin: 50px;
+  width: 300px;
+  height: 500px;
+}
