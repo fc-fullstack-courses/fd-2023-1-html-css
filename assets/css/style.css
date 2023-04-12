@@ -98,14 +98,14 @@ body {
   max-width: 1500px; */
   /* min-height: 700px;
   max-height: 1500px; */
-  width: 900px;
-  height: 500px;
+  width: 1500px;
+  /* height: 500px; */
   /* 
     управление переполнение блока
 
     visible | hidden | scroll | auto
   */
-  overflow: auto;
+  /* overflow: auto; */
   /* overflow-x: visible;
   overflow-y: auto; */
 
@@ -113,7 +113,12 @@ body {
 }
 
 .inner {
-  width: 200px;
+  /*
+    1vw - 1 процент от ширины вьюпорта
+    1vh - 1 процент от высоты вьюпорта
+  */
+  width: 100vh;
+  min-height: 100vw;
   margin: 0 auto;
   background-color: dodgerblue;
   border: 10px solid red;
@@ -128,7 +133,7 @@ body {
   border: 3px solid lime;
 
   width: 100%;
-  
+
   max-width: 250px;
   white-space: nowrap;
   overflow: hidden;
