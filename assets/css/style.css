@@ -17,7 +17,7 @@
   */
   /* Сверху | Справа | Снизу | Слева */
   padding: 10px 20px 30px 40px;
-    /* 
+  /* 
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 50px;
@@ -60,18 +60,33 @@
 
 body {
   font-size: 0;
-  width: 500px;
-  height: 1000px;
+  /* width: 500px; */
+  /* height: 1000px; */
 }
 
 .elem {
   /* display: inline; */
-  /* display: block; */
-  display: inline-block;
+  display: block;
   background-color: dodgerblue;
   font-size: 36px;
   /* padding: 10px 100px; */
   border: 10px solid red;
-  width: 50%;
-  height: 80%;
+  width: 300px;
+  height: 150px;
+}
+
+.first {
+  margin-left: 120px;
+  margin-bottom: 100px;
+}
+
+.second {
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 50px 20px;
+}
+
+.third {
+  margin-top: -90px;
+  margin-left: -100px;
 }
