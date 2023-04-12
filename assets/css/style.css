@@ -59,7 +59,7 @@
 }
 
 body {
-  font-size: 0;
+  /* font-size: 0; */
   /* width: 500px; */
   /* height: 1000px; */
 }
@@ -89,4 +89,23 @@ body {
 .third {
   margin-top: -90px;
   margin-left: -100px;
+}
+
+.wrapper {
+  /* height: 200px; */
+  width: 100%;
+  min-width: 700px;
+  max-width: 1500px;
+  /* min-height: 700px;
+  max-height: 1500px; */
+  border: 10px solid black;
+}
+
+.inner {
+  width: 50%;
+  margin: 0 auto;
+  background-color: dodgerblue;
+  border: 10px solid red;
+  padding: 20px;
+  font-size: 20px;
 }
