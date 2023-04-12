@@ -93,16 +93,27 @@ body {
 
 .wrapper {
   /* height: 200px; */
-  width: 100%;
+  /* width: 100%;
   min-width: 700px;
-  max-width: 1500px;
+  max-width: 1500px; */
   /* min-height: 700px;
   max-height: 1500px; */
+  width: 900px;
+  height: 500px;
+  /* 
+    управление переполнение блока
+
+    visible | hidden | scroll | auto
+  */
+  overflow: auto;
+  /* overflow-x: visible;
+  overflow-y: auto; */
+
   border: 10px solid black;
 }
 
 .inner {
-  width: 50%;
+  width: 200px;
   margin: 0 auto;
   background-color: dodgerblue;
   border: 10px solid red;
