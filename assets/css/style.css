@@ -237,3 +237,18 @@ body {
   /* list-style: upper-roman outside url('../img/arrow-right-thick.svg'); */
   list-style: none;
 }
+
+td {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+thead {
+  text-align: center;
+}
+
