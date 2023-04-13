@@ -155,3 +155,16 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.bg-container {
+  height: 1200px;
+  border: 5px solid red;
+  /* 
+  background-color: aqua;
+  background-image: url("../img/background-img.avif");
+  background-repeat: no-repeat;
+  */
+  background-size: cover; /* object-fit для фоновых картинок*/
+  /* background-position: right;  */
+  background: aqua url("../img/background-img.avif") no-repeat right/cover;
+}
