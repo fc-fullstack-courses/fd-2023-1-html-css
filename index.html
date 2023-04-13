@@ -7,7 +7,9 @@
   </head>
   <body>
     <table>
-      <caption>Что-то про продукты</caption>
+      <caption>
+        Что-то про продукты
+      </caption>
       <thead>
         <tr>
           <td class="top-left">Продукт</td>
@@ -19,29 +21,29 @@
       </thead>
       <tbody>
         <tr>
-          <td  >Хлеб ржаной</td>
-          <td>4.7</td>
-          <td>0.7</td>
+          <td>Хлеб ржаной</td>
+          <td rowspan="3" colspan="2">4.7</td>
+          <!-- <td>0.7</td> -->
           <td>49.8</td>
-          <td  >214</td>
+          <td>214</td>
         </tr>
         <tr>
           <td>Product 2</td>
-          <td>100</td>
-          <td>65</td>
+
+          <!-- <td>65</td> -->
           <td>2134</td>
           <td>23143</td>
         </tr>
         <tr>
           <td>Product 3</td>
-          <td>200</td>
-          <td>545</td>
+
+          <!-- <td>545</td> -->
           <td>52</td>
           <td>535</td>
         </tr>
         <tr>
           <td>Product 4</td>
-          <td>300</td>
+          <td rowspan="10">300</td>
           <td>65</td>
           <td>442</td>
           <td>22</td>
@@ -49,11 +51,11 @@
       </tbody>
       <tfoot>
         <tr>
-          <td class="bottom-left">Итого: </td>
-          <td>604.7</td>
-          <td>число</td>
+          <td class="bottom-left">Итого:</td>
+          <td class="bottom-right" colspan="4">604.7</td>
+          <!-- <td>число</td>
           <td>еще число</td>
-          <td class="bottom-right">большое число</td>
+          <td class="bottom-right">большое число</td> -->
         </tr>
       </tfoot>
     </table>
