@@ -82,7 +82,8 @@ body {
 
 .elem {
   /* display: inline; */
-  display: block;
+  display: inline-block;
+  text-align: center;
   background-color: dodgerblue;
   font-size: 36px;
   /* padding: 10px 100px; */
@@ -188,4 +189,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+}
+
+.elem-3 {
+  display: none;
+}
+
+.elem-2 {
+  opacity: 0;
+}
+
+.elem-4 {
+  visibility: hidden;
+}
+
+.elem-5 {
+  /* margin-left: -5000px; */
 }
