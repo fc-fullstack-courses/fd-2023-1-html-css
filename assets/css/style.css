@@ -211,3 +211,29 @@ body {
 .elem-5 {
   /* margin-left: -5000px; */
 }
+
+.list {
+  /*
+    отображение списка, сокращение свойств
+    list-style-position - расположение маркеров 
+      inside - внутри лишки
+      outside - (по умолчанию) снаружи лишки
+    list-style-type - тип отображения маркеров
+      list-style-type: disc;
+      list-style-type: circle;
+      list-style-type: square;
+      list-style-type: decimal;
+      list-style-type: georgian;
+      list-style-type: lower-roman;
+      list-style-type: upper-roman;
+      list-style-type: none;
+    list-style-image - 
+
+  */
+  font-size: 48px;
+  /* list-style-position: outside;
+  list-style-type: upper-roman;
+  list-style-image: url('../img/arrow-right-thick.svg'); */
+  /* list-style: upper-roman outside url('../img/arrow-right-thick.svg'); */
+  list-style: none;
+}
