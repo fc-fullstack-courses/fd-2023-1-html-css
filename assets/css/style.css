@@ -88,8 +88,13 @@ body {
   font-size: 36px;
   /* padding: 10px 100px; */
   border: 10px solid red;
-  width: 300px;
-  height: 150px;
+  /*
+    1vmin - 1 процент от меньшей стороны вьюпорта
+    1vmax - 1 процент от большей стороны вьюпорта
+  
+  */
+  width: 100vmin;
+  height: 100vmin;
 }
 
 .first {
@@ -192,15 +197,15 @@ body {
 }
 
 .elem-3 {
-  display: none;
+  /* display: none; */
 }
 
 .elem-2 {
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .elem-4 {
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .elem-5 {
