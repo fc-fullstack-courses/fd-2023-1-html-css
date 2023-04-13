@@ -235,7 +235,7 @@ body {
   list-style-type: upper-roman;
   list-style-image: url('../img/arrow-right-thick.svg'); */
   /* list-style: upper-roman outside url('../img/arrow-right-thick.svg'); */
-  list-style: none;
+  /* list-style: none; */
 }
 
 td {
