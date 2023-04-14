@@ -310,3 +310,28 @@ ul ~ p {
 ul + p {
   font-size: 30px;
 }
+
+/* 
+  selector:pseudoclass
+*/
+
+.nav-list {
+  margin-top: 40px;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: limegreen;
+}
