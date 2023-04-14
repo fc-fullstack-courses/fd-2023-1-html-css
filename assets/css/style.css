@@ -268,3 +268,11 @@ thead {
 .bottom-right {
   border-bottom-right-radius: 20px;
 }
+
+[title] {
+  color: red;
+}
+
+[title="text text"] {
+  background-color: green;
+}
