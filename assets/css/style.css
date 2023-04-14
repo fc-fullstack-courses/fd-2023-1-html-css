@@ -291,5 +291,17 @@ p#some-id.some-class {
 }
 
 #some-id {
-  
+
+}
+
+div#root > p {
+  color: limegreen;
+}
+
+div#root > div > p {
+  font-style: italic;
+}
+
+div p {
+  text-decoration: underline red;
 }
