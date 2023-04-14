@@ -276,3 +276,20 @@ thead {
 [title="text text"] {
   background-color: green;
 }
+
+h1.text {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.text-1.text-2 {
+
+}
+
+p#some-id.some-class {
+
+}
+
+#some-id {
+  
+}
