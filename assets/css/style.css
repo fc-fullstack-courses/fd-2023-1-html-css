@@ -7,7 +7,7 @@
 :root {
   font-size: 20px;
 
-  --color: white;
+  --color: purple;
 }
 
 /* html {
@@ -341,14 +341,33 @@ ul + p {
   background-color: dodgerblue;
   color: var(--color);
   cursor: pointer;
-  border: none;
+  border: 5px solid transparent;
   line-height: 1;
 }
 
-.link:hover {
+.link:link {
+  background-color: aqua;
+}
+
+.link:visited {
+  background-color: blue;
+}
+
+.link:hover,
+.link:focus {
+  outline: none;
   background-color: limegreen;
+}
+
+.link:active {
+  color: red;
 }
 
 .link:hover:not(a) {
   background-color: purple;
 }
+/* 
+.link:focus {
+  outline: none;
+  border-color: red;
+} */
