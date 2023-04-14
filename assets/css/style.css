@@ -341,8 +341,14 @@ ul + p {
   background-color: dodgerblue;
   color: var(--color);
   cursor: pointer;
+  border: none;
+  line-height: 1;
 }
 
 .link:hover {
   background-color: limegreen;
+}
+
+.link:hover:not(a) {
+  background-color: purple;
 }
