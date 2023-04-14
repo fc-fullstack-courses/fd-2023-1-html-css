@@ -273,7 +273,7 @@ thead {
   color: red;
 }
 
-[title="text text"] {
+[title='text text'] {
   background-color: green;
 }
 
@@ -283,15 +283,12 @@ h1.text {
 }
 
 .text-1.text-2 {
-
 }
 
 p#some-id.some-class {
-
 }
 
 #some-id {
-
 }
 
 div#root > p {
@@ -304,4 +301,12 @@ div#root > div > p {
 
 div p {
   text-decoration: underline red;
+}
+
+ul ~ p {
+  font-weight: bold;
+}
+
+ul + p {
+  font-size: 30px;
 }
