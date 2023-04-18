@@ -431,6 +431,9 @@ ul + p {
   width: 80%;
   margin: 0 auto;
   background-color: orange;
+  height: 300vh;
+  position: relative;
+
 }
 
 .inner-wrapper {
@@ -483,7 +486,10 @@ ul + p {
 .bottom {
   bottom: 15px;
 }
-/*
-  создать 4 єлемента и разместить их в разных углах 
-  экрана, при этом припрокрутке они не долны смещаться
-*/
+
+.absolute {
+  position: absolute;
+  /* top: 200px; */
+  left: 50px;
+  bottom: -50px;
+}
