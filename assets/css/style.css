@@ -8,6 +8,7 @@
   font-size: 20px;
 
   --color: purple;
+  --dsadsggfdgs: 12px;
 }
 
 /* html {
@@ -15,7 +16,7 @@
 } */
 
 .img {
-  --img-size : 400px;
+  --img-size: 400px;
   width: var(--img-size);
   height: var(--img-size);
 
@@ -371,3 +372,28 @@ ul + p {
   outline: none;
   border-color: red;
 } */
+
+.ul {
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+.li {
+  padding: 10px;
+  background-color: orange;
+}
+
+/* .first-li {
+  color: aqua;
+} */
+
+.li:first-child {
+  color: aqua;
+}
+
+.li:last-child {
+  color: red;
+  font-weight: bold;
+}
+
+
