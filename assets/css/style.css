@@ -15,6 +15,10 @@
   root
 } */
 
+body {
+  /* min-height: 300vh; */
+}
+
 .img {
   --img-size: 400px;
   width: var(--img-size);
@@ -421,4 +425,30 @@ ul + p {
 .li:nth-child(odd) {
   color: red;
   font-size: 28px;
+}
+
+.outer-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: orange;
+}
+
+.inner-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: dodgerblue;
+  height: 200vh;
+}
+
+.position-box {
+  width: 80px;
+  padding: 30px;
+  background-color: limegreen;
+  border: 5px solid red;
+}
+
+.relative {
+  position: relative;
+  left: 500px;
+  top: 200px;
 }
