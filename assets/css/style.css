@@ -5,3 +5,27 @@
   padding: 0;
 }
 
+.article {
+  font-size: 22px;
+}
+
+.article-heading {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+.text::first-letter {
+  color: red;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+.text::first-line {
+  font-weight: bold;
+  font-style: italic;
+}
+
+::selection {
+  background-color: limegreen;
+}
