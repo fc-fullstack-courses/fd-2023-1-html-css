@@ -7,13 +7,15 @@
 
 .container {
   display: flex;
-  flex-direction: row;
-  /* justify-content: flex-end; */
+  background: orange;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .item {
   display: block;
-  padding: 20px;
+  padding: 30px;
   font-size: 36px;
   background: dodgerblue;
   color: white;
