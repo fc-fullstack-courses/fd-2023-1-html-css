@@ -5,3 +5,18 @@
   padding: 0;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-end; */
+}
+
+.item {
+  display: block;
+  padding: 20px;
+  font-size: 36px;
+  background: dodgerblue;
+  color: white;
+  border: 5px solid red;
+  width: 250px;
+}
