@@ -9,8 +9,9 @@
   display: flex;
   background: orange;
   min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .item {
@@ -20,5 +21,5 @@
   background: dodgerblue;
   color: white;
   border: 5px solid red;
-  width: 250px;
+  /* width: 250px; */
 }
