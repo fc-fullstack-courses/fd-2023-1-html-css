@@ -8,7 +8,7 @@
 .container {
   display: flex;
   background: orange;
-  min-height: 100vh;
+  height: 100vh;
   /* 
     task 1 
       flex-direction: row-reverse;
@@ -27,9 +27,11 @@
       justify-content: flex-start;
       align-items: flex-start;
   */
-  flex-direction: column-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-end;
+  align-content: center;
 }
 
 .item {
@@ -40,4 +42,8 @@
   color: white;
   border: 5px solid red;
   /* width: 250px; */
+}
+
+.big-item {
+  padding: 100px 30px;
 }
