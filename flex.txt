@@ -39,4 +39,5 @@
       space-evenly
       stretch
 
+    flex-flow - сокращение для flex-direction и flex-wrap
   2.2 Свойства флекс-детей ( > )
