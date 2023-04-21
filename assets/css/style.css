@@ -50,6 +50,7 @@
   background: dodgerblue;
   color: white;
   border: 5px solid red;
+  flex-grow: 1;
   /* width: 250px; */
 }
 
@@ -77,5 +78,9 @@
   /* width: 100px;
   min-width: 300px;
   max-width: 200px; */
-  flex-basis: 200px;
+  /* flex-basis: 200px; */
+}
+
+.flex-grow {
+  flex-grow: 2;
 }
