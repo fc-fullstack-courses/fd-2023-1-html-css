@@ -74,4 +74,7 @@
     flex-shrink - коэффициент сжатия флекс элемента
       по умолчанию 1 (сразу работает)
       в остальном логика как у flex-grow
-    flex
+    
+    flex - сокращение flex-grow flex-shrink flex-basis
+      1 1 150px
+      
