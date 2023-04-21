@@ -48,7 +48,12 @@
   2.2 Свойства флекс-детей ( > )
     order - целое число указывает порядок отображения элементов
       по умолчанию 0
-    align-self 
+    align-self - это аналог align-items но для конкретного ребенка
+      stretch (default) - растягивает элементы вдоль поперечной оси
+      flex-start
+      flex-end
+      center
+      baseline
     flex-basis
     flex-grow
     flex-shrink

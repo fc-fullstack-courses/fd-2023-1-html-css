@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.align-self {
+  align-self: stretch;
+}
+
 .container {
   display: flex;
   background: orange;
@@ -52,10 +56,11 @@
   padding: 100px 30px;
 }
 
-.order {
+/* .order {
   order: 1;
 }
 
 .order-2 {
   order: 1;
-}
+} */
+
