@@ -50,8 +50,9 @@
   background: dodgerblue;
   color: white;
   border: 5px solid red;
-  flex-grow: 1;
-  /* width: 250px; */
+  /* flex-grow: 1; */
+  flex-shrink: 1;
+  width: 400px;
 }
 
 .big-item {
@@ -83,4 +84,9 @@
 
 .flex-grow {
   flex-grow: 2;
+}
+
+.flex-shrink {
+  /* flex-shrink: 2; */
+  width:  1500px;
 }
