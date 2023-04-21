@@ -54,7 +54,12 @@
       flex-end
       center
       baseline
-    flex-basis
+    flex-basis - управляет размером элемента вдоль главной оси
+
+    content <= width/height <= max-width/height <= min-width/height
+
+    width/height <= flex-basis <= content
+
     flex-grow
     flex-shrink
     flex

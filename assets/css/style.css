@@ -72,3 +72,10 @@
   margin-right: auto; */
   margin: auto;
 }
+
+.flex-basis {
+  /* width: 100px;
+  min-width: 300px;
+  max-width: 200px; */
+  flex-basis: 200px;
+}
