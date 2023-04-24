@@ -17,6 +17,7 @@
         placeholder="Login"
         autofocus
         pattern="^[A-Za-z][A-Za-z0-9]{2,16}$"
+        value="Test"
       />
       <label>
         Email
@@ -26,7 +27,8 @@
           type="email"
           autocomplete="email"
           pattern="^[a-zA-Z0-9]{2,32}@[a-z]{3,32}\.[a-z]{2,5}$"
-        />
+          value="test@test.test"
+          />
       </label>
       <label for="pass">
         Password
@@ -37,9 +39,13 @@
           required
           placeholder="Password"
           pattern="^[A-Za-z0-9]{8,16}$"
-
+          value="12345admin"
         />
       </label>
+
+      <p>Choose your gender:</p>
+      <label><input type="radio" name="gender" value="male"/> Male</label>
+      <label><input type="radio" name="gender" value="female" /> Female</label>
       <button type="submit">Submit</button>
     </form>
   </body>
