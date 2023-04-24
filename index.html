@@ -10,14 +10,31 @@
     <h1>Forms</h1>
     <form class="form">
       <label for="login-id"> Login </label>
-      <input id="login-id" name="login" placeholder="Login" />
+      <input
+        id="login-id"
+        name="login"
+        required
+        placeholder="Login"
+        pattern="^[A-Za-z][A-Za-z0-9]{2,16}$"
+      />
+      <label>
+        Email
+        <input
+          required
+          name="email"
+          type="email"
+          pattern="^[a-zA-Z0-9]{2,32}@[a-z]{3,32}\.[a-z]{2,5}$"
+        />
+      </label>
       <label for="pass">
         Password
         <input
           id="pass"
           name="password"
           type="password"
+          required
           placeholder="Password"
+          pattern="^[A-Za-z0-9]{8,16}$"
         />
       </label>
       <button type="submit">Submit</button>
