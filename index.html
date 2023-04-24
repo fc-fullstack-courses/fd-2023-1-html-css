@@ -60,7 +60,24 @@
           <input type="radio" name="gender" value="female" /> Female
         </label>
       </fieldset>
-
+      <fieldset class="fieldset">
+        <legend class="legend">Delivery address</legend>
+        <label class="label text-label">
+          Country:
+          <select name="country">
+            <optgroup label="Europe">
+              <option value="ua">Ukraine</option>
+              <option value="pl">Poland</option>
+              <option value="it">Italy</option>
+              <option value="es">Spain</option>
+            </optgroup>
+            <optgroup label="Asia">
+              <option value="jp">Japan</option>
+              <option value="kr">South Korea</option>
+            </optgroup>
+          </select>
+        </label>
+      </fieldset>
       <label class="label">
         Are you an adult?
         <input type="checkbox" name="isAdult" required value="yes" />
