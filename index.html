@@ -9,52 +9,57 @@
   <body>
     <h1 class="heading">Forms</h1>
     <form class="form">
-      <label class="text-label label" for="login-id">
-        Login
-        <input
-          class="text-input"
-          id="login-id"
-          name="login"
-          required
-          placeholder="Login"
-          autofocus
-          pattern="^[A-Za-z][A-Za-z0-9]{2,16}$"
-          value="Test"
-      /></label>
+      <fieldset class="fieldset">
+        <legend class="legend">Login data</legend>
+        <label class="text-label label" for="login-id">
+          Login
+          <input
+            class="text-input"
+            id="login-id"
+            name="login"
+            required
+            placeholder="Login"
+            autofocus
+            pattern="^[A-Za-z][A-Za-z0-9]{2,16}$"
+            value="Test"
+          />
+        </label>
+        <label class="text-label label">
+          Email
+          <input
+            class="text-input"
+            required
+            name="email"
+            type="email"
+            autocomplete="email"
+            pattern="^[a-zA-Z0-9]{2,32}@[a-z]{3,32}\.[a-z]{2,5}$"
+            value="test@test.test"
+          />
+        </label>
+        <label class="text-label label" for="pass">
+          Password
+          <input
+            class="text-input"
+            id="pass"
+            name="password"
+            type="password"
+            required
+            placeholder="Password"
+            pattern="^[A-Za-z0-9]{8,16}$"
+            value="12345admin"
+          />
+        </label>
+      </fieldset>
 
-      <label class="text-label label">
-        Email
-        <input
-          class="text-input"
-          required
-          name="email"
-          type="email"
-          autocomplete="email"
-          pattern="^[a-zA-Z0-9]{2,32}@[a-z]{3,32}\.[a-z]{2,5}$"
-          value="test@test.test"
-        />
-      </label>
-      <label class="text-label label" for="pass">
-        Password
-        <input
-          class="text-input"
-          id="pass"
-          name="password"
-          type="password"
-          required
-          placeholder="Password"
-          pattern="^[A-Za-z0-9]{8,16}$"
-          value="12345admin"
-        />
-      </label>
-
-      <p>Choose your gender:</p>
-      <label class="label">
-        <input type="radio" name="gender" value="male" required /> Male</label
-      >
-      <label class="label">
-        <input type="radio" name="gender" value="female" /> Female</label
-      >
+      <fieldset class="fieldset">
+        <legend class="legend">Choose your gender</legend>
+        <label class="label">
+          <input type="radio" name="gender" value="male" required /> Male
+        </label>
+        <label class="label">
+          <input type="radio" name="gender" value="female" /> Female
+        </label>
+      </fieldset>
 
       <label class="label">
         Are you an adult?
