@@ -22,7 +22,6 @@
   margin: 0 auto;
   padding: 20px;
   border: 5px solid black;
-
 }
 
 .label {
@@ -37,6 +36,39 @@
 .text-input {
   flex: 1;
   max-width: 300px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.text-input:required {
+  /* стили для инпутов с required */
+  background-color: orange;
+  color: white;
+}
+
+.text-input:optional {
+  /* стили для инпутов без required */
+}
+
+.text-input:disabled {
+  /*для отключенных инпутов */
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.text-input:valid {
+  /* для инпутов прошедших проверки */
+  background-color: limegreen;
+}
+
+.text-input:invalid {
+  /* для инпутов не прошедших проверки */
+  background-color: red;
+}
+
+.text-input::placeholder {
+  color: white;
+  font-style: italic;
+  padding-left: 20px;
 }
 
 .fieldset {
