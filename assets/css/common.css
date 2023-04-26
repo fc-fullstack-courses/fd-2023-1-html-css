@@ -1,3 +1,7 @@
+:root {
+  font-size: 20px;
+}
+
 .heading {
   text-align: center;
   font-size: 64px;
@@ -10,4 +14,29 @@
 .text {
   font-size: 24px;
   font-family: 'Vollkorn SC', serif;
+}
+
+.outer {
+  background-color: limegreen;
+  font-size: 50px;
+}
+
+.inner {
+  background-color: orange;
+  font-size: 2em;
+}
+
+.child {
+  background-color: dodgerblue;
+  font-size: 3em;
+}
+
+.inner-rem {
+  background-color: orange;
+  font-size: 2rem;
+}
+
+.child-rem {
+  background-color: dodgerblue;
+  font-size: 3rem;
 }
