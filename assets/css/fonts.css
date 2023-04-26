@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'Cormorant Infant';
-  src: url('../fonts/cormorant-infant/CormorantInfant-Regular.ttf')
+  src: local('Cormorant Infant'), 
+    local('Cormorant Infant Regular'),
+    url('../fonts/cormorant-infant/CormorantInfant-Regular.ttf')
       format('truetype'),
     url('../fonts/cormorant-infant/CormorantInfant-Regular.woff') format('woff');
 
@@ -12,7 +14,8 @@
   font-family: 'Cormorant Infant';
   src: url('../fonts/cormorant-infant/CormorantInfant-BoldItalic.ttf')
       format('truetype'),
-    url('../fonts/cormorant-infant/CormorantInfant-BoldItalic.woff') format('woff');
+    url('../fonts/cormorant-infant/CormorantInfant-BoldItalic.woff')
+      format('woff');
 
   font-weight: bold;
   font-style: italic;
