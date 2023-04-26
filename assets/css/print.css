@@ -1,0 +1,26 @@
+.heading {
+  color: black;
+}
+
+.text {
+
+}
+
+.outer {
+
+}
+
+.inner {
+
+}
+
+.child {
+  font-size: 80px;
+}
+
+.inner-rem {
+}
+
+.child-rem {
+  font-style: italic;
+}

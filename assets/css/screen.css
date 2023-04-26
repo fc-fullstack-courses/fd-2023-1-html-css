@@ -1,0 +1,30 @@
+.heading {
+  background-color: red;
+  color: white;
+}
+
+.text {
+  background-color: aqua;
+}
+
+.outer {
+  background-color: limegreen;
+}
+
+.inner {
+  background-color: orange;
+}
+
+.child {
+  background-color: dodgerblue;
+  color: yellow;
+  font-size: 3em;
+}
+
+.inner-rem {
+  background-color: orange;
+}
+
+.child-rem {
+  background-color: dodgerblue;
+}

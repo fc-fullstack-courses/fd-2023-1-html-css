@@ -4,39 +4,33 @@
 
 .heading {
   text-align: center;
-  font-size: 64px;
+  font-size: 3rem;
   font-weight: bold;
   font-style: italic;
-
   font-family: 'Cormorant Infant', 'Times New Roman', 'Arial', sans-serif;
 }
 
 .text {
-  font-size: 24px;
+  padding: 20px;
   font-family: 'Vollkorn SC', serif;
 }
 
 .outer {
-  background-color: limegreen;
-  font-size: 50px;
+  font-size: 2.5rem;
 }
 
 .inner {
-  background-color: orange;
   font-size: 2em;
 }
 
 .child {
-  background-color: dodgerblue;
-  font-size: 3em;
+  font-weight: bold;
 }
 
 .inner-rem {
-  background-color: orange;
   font-size: 2rem;
 }
 
 .child-rem {
-  background-color: dodgerblue;
   font-size: 3rem;
 }
