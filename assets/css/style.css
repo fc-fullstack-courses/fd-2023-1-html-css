@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import './reset.css';
+@import './common.css';
 
 * {
   /* селектор для каждого елемента */
@@ -6,3 +8,4 @@
   margin: 0;
   padding: 0;
 }
+
