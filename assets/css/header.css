@@ -13,7 +13,6 @@
 }
 
 .nav {
-  
 }
 
 .nav-list {
@@ -28,4 +27,17 @@
   padding: 10px;
   color: inherit;
   text-decoration: none;
+}
+
+@media print {
+  /* что-то типо print.css */
+  .header {
+    background-color: transparent;
+    color: black;
+    padding: 20px 15px;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
 }
