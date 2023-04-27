@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
   align-items: center;
   background-color: dodgerblue;
   padding: 25px 20px;
@@ -42,15 +43,37 @@
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 400px) {
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .header {
     background-color: limegreen;
     color: darkblue;
   }
 }
 
+@media screen and (max-width: 484px) {
+  .header {
+    flex-direction: column;
+  }
+}
 
 /*
   max-width - стили работают до указанной ширины и ниже
   min-width - стили работают от указанной ширины и выше
+*/
+
+/*
+  500 - 600 - телефоны
+  600 - 1000 - планшеты
+  1000 - 1300 - ноутбуки
+  1300 + - компьютеры
 */
