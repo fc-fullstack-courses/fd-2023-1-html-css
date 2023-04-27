@@ -41,3 +41,16 @@
     font-size: 1.5rem;
   }
 }
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+  .header {
+    background-color: limegreen;
+    color: darkblue;
+  }
+}
+
+
+/*
+  max-width - стили работают до указанной ширины и ниже
+  min-width - стили работают от указанной ширины и выше
+*/
