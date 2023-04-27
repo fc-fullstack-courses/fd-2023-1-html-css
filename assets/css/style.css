@@ -5,6 +5,7 @@
 @import './print.css' print;
 @import './screen.css' screen; */
 @import './header.css';
+@import './user-card.css';
 
 /*
   screen - устройства с экранами
