@@ -1,9 +1,10 @@
 @charset "utf-8";
 @import './reset.css';
 @import './fonts.css';
-@import './common.css' print, screen;
+/* @import './common.css' print, screen;
 @import './print.css' print;
-@import './screen.css' screen;
+@import './screen.css' screen; */
+@import './header.css';
 
 /*
   screen - устройства с экранами
