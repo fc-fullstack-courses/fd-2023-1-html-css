@@ -11,16 +11,26 @@
   padding: 20px;
   background-color: dodgerblue;
   color: white;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 .left-aside {
   background-color: limegreen;
   padding: 20px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .main {
   background-color: orange;
   padding: 30px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .right-aside {
