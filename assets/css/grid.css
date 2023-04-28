@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  /* указание количества колонок */
+  grid-template-columns: 200px 20rem 200px 50%;
+  /* указать количество строк */
+  grid-template-rows: 200px 500px;
+}
+
+.header {
+  padding: 20px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.left-aside {
+  background-color: limegreen;
+  padding: 20px;
+}
+
+.main {
+  background-color: orange;
+  padding: 30px;
+}
+
+.right-aside {
+  background-color: aqua;
+  padding: 10px 20px;
+}
+
+.footer {
+  background-color: cornflowerblue;
+  padding: 40px;
+}
