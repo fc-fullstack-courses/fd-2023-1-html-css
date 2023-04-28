@@ -1,9 +1,10 @@
 .container {
   display: grid;
+  min-height: 100vh;
   /* указание количества колонок */
-  grid-template-columns: 200px 20rem 200px 50%;
+  grid-template-columns: 200px 1fr auto 1fr;
   /* указать количество строк */
-  grid-template-rows: 200px 500px;
+  grid-template-rows: 1fr auto;
 }
 
 .header {
